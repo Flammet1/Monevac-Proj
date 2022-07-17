@@ -1,0 +1,90 @@
+@media (max-width: 767px) {
+    .header {
+        min-height: 65px;
+        &__img {
+            display: none;
+        }
+        &__logo {
+            width: 90px;
+            height: 30px;
+            background-image: url("/src/img/logo-tablet.svg");
+        }
+        .button {
+            display: none;
+        }
+        &__item {
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+    .contacts {
+        .contact {
+            font-family: 'RoadRadio';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 100%;
+        }
+    }
+    .information {
+        margin-bottom: 50px;
+        .info {
+            justify-content: space-around;
+            .informat {
+                width: 287px;
+                height: 590px;
+                .num {
+                    font-size: 20px;
+                }
+                .em {
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                .text_descr {
+                    font-size: 14px;
+                    line-height: 140%;
+                }
+            }
+            .questions {
+                width: 350px;
+                height: 487px;
+                .question {
+                    font-weight: 400;
+                    font-size: 28px;
+                    line-height: 120%;
+                }
+                .name-field {
+                    width: 350px;
+                    height: 60px;
+                }
+                .phone-field {
+                    margin-top: 10px;
+                    width: 350px;
+                    height: 60px;
+                }
+                .true-text {
+                    transform: translateY(-60%);
+                }
+            }
+        }
+    }
+    .map {
+        width: 768px;
+        height: 480px;
+        background: url("/src/img/map\ 2.svg") center (center/cover) no-repeat;
+        margin-top: 240px;
+    }
+    .catalog {
+        .catalog__content{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .catalog-item {
+                margin: 5px;
+                width: 350px;
+                height: 310px;
+            }
+        }
+    }
+}

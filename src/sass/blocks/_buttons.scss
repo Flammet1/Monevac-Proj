@@ -1,0 +1,22 @@
+.button {
+    width: 190px;
+    height: 52px;
+    background: #BF2738;
+    border-radius: 14px;
+    border: none;
+    font-family: 'RoadRadio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    &_question {
+        margin-top: 30px;
+    }
+    &_footer {
+        background: #2A2A2E;
+        border: 2px solid #494950;
+        border-radius: 14px;
+    }
+}
